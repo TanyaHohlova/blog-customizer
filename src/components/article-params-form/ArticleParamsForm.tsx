@@ -3,10 +3,11 @@ import { Button } from 'src/ui/button';
 import { OptionType, backgroundColors, contentWidthArr, defaultArticleState, fontColors, fontFamilyOptions, fontSizeOptions } from 'src/constants/articleProps';
 import styles from './ArticleParamsForm.module.scss';
 import { useEffect, useRef, useState } from 'react';
-import clsx from 'clsx';
 import { Select } from 'src/ui/select';
 import { RadioGroup } from 'src/ui/radio-group';
 import { Separator } from 'src/ui/separator';
+
+import clsx from 'clsx';
 
 interface ArticleParamsFormProps {
     onApply: (params: any) => void;
